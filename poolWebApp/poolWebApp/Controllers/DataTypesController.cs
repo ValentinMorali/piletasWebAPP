@@ -20,7 +20,7 @@ namespace poolWebApp.Controllers
             _context = context;
         }
 
-        // GET: api/DataTypes para traer
+        // GET: api/DataTypes consulta
         [HttpGet]
         public async Task<ActionResult<IEnumerable<DataType>>> GetDataTypes()
         {
